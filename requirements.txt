@@ -1,0 +1,10 @@
+Project:
+A script that:
+  1. identifies .pdf files with name e-Factura_client_-_...__22-10-2025__PT0010__SmartBill in /Downloads
+  2. extracts month from name
+  3. copies the doc into an accounting directory in my google drive folder location
+  4. deletes the doc from /Downloads
+
+BONUS: If time allows, extend it to all types of accounting docs
+BONUS: Instead of searching for files locally, fetch the invoices from SmartBill https://api.smartbill.ro/#prezentare_generala
+BONUS: If time allows, periodically on the 5th of the month, send email to accounting with docs
